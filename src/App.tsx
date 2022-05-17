@@ -1,7 +1,11 @@
+import { Menu } from "./components/Menu";
+
 export const App = () => {
   return (
-    <div>
-      <h1>Ficha Técnica</h1>
+    <div className="flex min-h-screen bg-zinc-800">
+      <div className="bg-zinc-900 w-[100px]">
+        <Menu />
+      </div>
     </div>
   );
 };
